@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    background-color: #292B21;
 }
 .container{
     height: 100vh;
@@ -47,5 +48,4 @@ button{
 }
 .border-align{
     width: 90px;
-    
 }

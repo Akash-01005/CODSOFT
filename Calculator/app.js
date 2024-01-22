@@ -1,6 +1,6 @@
 let disp=document.getElementById("display");
 function clr(){
-    disp.value=" ";
+    disp.value="";
 }
 function cal(){
     try{
