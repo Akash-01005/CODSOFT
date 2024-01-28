@@ -1,0 +1,5 @@
+   <ul class="contact-info">
+                   <li><i class="bi bi-pin-map-fill new-icons"></i><div class="address"></div></li>
+                   <li><i class="bi bi-telephone-fill new-icons"></i><span class="ql-para">+91 114 667799</span></li>
+                   <li><i class="bi bi-envelope-fill new-icons"></i><span class="ql-para">Cyberpub@support.com</span></li>
+               </ul>
