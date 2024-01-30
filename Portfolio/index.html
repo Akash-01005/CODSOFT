@@ -8,16 +8,18 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
+    <div id="header">
         <div class="container">
             <nav>
                 <h1><span style="color: #ADEFD1FF;">A</span>KASH.</h1>
-                <ul>
-                    <li class="link"><a href="">Home</a></li>
-                    <li class="link"><a href="">About</a></li>
-                    <li class="link"><a href="">Portfolio</a></li>
-                    <li class="link"><a href="">Contact</a></li>
+                <ul id="menu">
+                    <li class="link"><a href="#header">Home</a></li>
+                    <li class="link"><a href="#about">About</a></li>
+                    <li class="link"><a href="#portfolio">Portfolio</a></li>
+                    <li class="link"><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="hide()"></i>
                 </ul>
+                <i class="fas fa-solid fa-bars" onclick="show()"></i>
             </nav>
             <div class="text">
                   <p>Web Developer</p>
@@ -25,19 +27,18 @@
             </div>
         </div>
     </div>
-    <!-- about -->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.png" alt="">
+                    <img src="images/user.png.png" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sunt optio deleniti deserunt, dolore ea alias porro, voluptate illum nisi voluptatibus mollitia quae numquam ex quam eligendi impedit, saepe nobis harum expedita excepturi modi asperiores est velit? Culpa blanditiis amet placeat qui unde exercitationem est debitis libero inventore cum pariatur, nulla iste dolorum, accusantium officiis sunt quae? Quasi laborum repellat reprehenderit saepe.</p>
+                    <p class="text-align">Hello there! 👋 I'm  Akash, a budding web developer on a mission to create immersive and functional digital experiences. With a passion for coding and a keen eye for design, I'm excited to be part of the ever-evolving world of web development.The dynamic nature of web development keeps me on my toes, and I'm always eager to stay updated with the latest trends and technologies. I believe in the power of lifelong learning to stay ahead in this fast-paced field.</p>
                       <div class="tab">
-                          <p class="tab-titles active-title" onclick="show('skill')">Skills</p>
-                          <p class="tab-titles" onclick="show('education')">Education</p>
+                          <p class="tab-titles active-title" onclick="tab('skill')">Skills</p>
+                          <p class="tab-titles" onclick="tab('education')">Education</p>
                       </div>
                       <div class="contents active" id="skill">
                           <ul>
@@ -51,6 +52,7 @@
                           <li><span>2008-2012</span><br>Adharsh Vidhyalaya Matriculation Higher Secondary School.</li>
                           <li><span>2012-2015</span><br>Sri Parasakthi Vidhyalaya CBSE school.</li>
                           <li><span>2015-2022</span><br>Sri Mupudathi Amman Matriculation Higher Secondary Schhol.</li>
+                          <li><span>2022-Current</span><br>Rajalakshmi Engineering College.</li>
                         </ul>
                     </div>
                 </div>
@@ -62,7 +64,7 @@
           <h1 class="sub-title">My Work</h1>
           <div class="work-list">
             <div class="work">
-                <img src="images/work-1.png" alt="">
+                <img src="images/calculator.png" alt="">
                 <div class="layer">
                     <h3>Calculator</h3>
                     <p>Simple HTML,CSS,JS calculator Webpage.</p>
@@ -70,7 +72,7 @@
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-3.png" alt="">
+                <img src="images/landing-page.png" alt="">
                 <div class="layer">
                     <h3>Landing Page</h3>
                     <p>Simple HTML and CSS design.</p>
@@ -106,7 +108,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>copyright &copy 2024</p>
+            <p>Copyright &copy 2024</p>
         </div>
     </div>
     <script src="app.js"></script>
