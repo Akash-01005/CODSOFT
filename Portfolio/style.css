@@ -19,6 +19,7 @@ body{
 }
 .container{
     padding: 10px 10%;
+    padding-bottom: 5%;
 }
 nav{
     display: flex;
@@ -26,11 +27,11 @@ nav{
     flex-wrap: wrap;
     align-items: center;
 }
+nav ul{
+    padding: 40px;
+}
 nav h1{
     font-size: 40px;
-}
-.logo{
-    width: 140px;
 }
 .link{
     display: inline-block;
@@ -60,6 +61,7 @@ nav h1{
     margin-top: 20%;
     font-size: 30px;
     text-align: end;
+    padding: 10px 10%;
 }
 .color{
     color: #ADEFD1FF;
@@ -68,8 +70,16 @@ nav h1{
     font-size: px;
 }
 #about{
-    padding: 5px 0px;
+    padding: 10px 0px;
     color: #ababab;
+}
+.image{
+    padding-left: 15px;
+    margin-left: 70px;
+}
+.head-container{
+    padding: 10px;
+    padding-left: 2px;
 }
 .row{
    display: flex;
@@ -220,10 +230,11 @@ nav h1{
     margin-right: 15px;
    color: #ababab;
    display: inline-block;
-   transition:0.5s;
 }
 .social-icons a :hover{
     color: #ADEFD1FF;
+    transition: 0.5s;
+    transform: translatey(-5px);
 }
 .btn2{
    padding: 15px;
@@ -279,29 +290,30 @@ form .btn2{
     display: none !important;
     cursor: pointer;
 }
-.contact-left .margin-adjust{
+.text-decoration{
     text-decoration: none;
     color: #fff;
-    margin-bottom: 20px;
-}
-.margin-adjust{
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 .contact-left h1{
     margin-bottom: 25px;
 }
 .icon{
     margin-right: 10px;
-    margin-bottom: 15px;
+    margin-top: 25px;
     cursor: pointer;
     font-size: 20px;
 }
 @media only screen and (max-width:600px){
  .text{
-    margin-top: 75%;
+    margin-top: 50%;
     font-size: 16px;
     text-align: start;
+    padding: 10px 5%;
+ }
+ .image{
+    margin-left: 0px;
+    width: 100px;
+    height: 100px;
  }
  .text h1{
     font-size: 40px;
@@ -350,6 +362,7 @@ nav ul .fas{
 .contact-left,.contact-right{
     flex-basis: 100%;
 }
+
 }
 .text-align{
     text-align: justify;
