@@ -212,7 +212,7 @@ nav h1{
     font-size: 25px;
 }
 .social-icons{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .social-icons a{
     text-decoration: none;
@@ -282,13 +282,14 @@ form .btn2{
 .contact-left .margin-adjust{
     text-decoration: none;
     color: #fff;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .margin-adjust{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .contact-left h1{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .icon{
     margin-right: 10px;
