@@ -212,7 +212,7 @@ nav h1{
     font-size: 25px;
 }
 .social-icons{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .social-icons a{
     text-decoration: none;
@@ -250,6 +250,9 @@ nav h1{
 .contact-right form{
     width: 100%;
 }
+.btn{
+    cursor: pointer;
+}
 form input,form textarea{
     width: 100%;
     border: 0px;
@@ -261,11 +264,11 @@ form input,form textarea{
     border-radius: 8px;
     color: #fff;
 }
-form btn2{
-    padding: 14px 60px;
+form .btn2{
+    padding: 14px 20px;
     font-size: 18px;
-    margin-top: 10px;
     cursor:pointer;
+    margin-bottom: 30px;
 }
 .copyright{
     width: 100%;
@@ -275,6 +278,23 @@ form btn2{
 .fas{
     display: none !important;
     cursor: pointer;
+}
+.contact-left .margin-adjust{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.margin-adjust{
+    margin-top: 20px;
+}
+.contact-left h1{
+    margin-bottom: 15px;
+}
+.icon{
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
 }
 @media only screen and (max-width:600px){
  .text{
@@ -327,7 +347,7 @@ nav ul .fas{
     font-size: 14px;
 }
 .contact-left,.contact-right{
-    flex-basis: 100%S;
+    flex-basis: 100%;
 }
 }
 .text-align{
