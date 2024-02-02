@@ -5,6 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-image: url("images/background.jpg");
@@ -119,6 +120,7 @@ a{
     padding-bottom:0px ;
     height: 60vh;
     margin-top: 50vh;
+    overflow: hidden;
 }
 .about-us{
      height: 300px;
@@ -218,7 +220,7 @@ footer{
 }
 .mob-bar{
     padding-bottom: 20px;
-    transition: .1s ease-in-out;
+    transition: .5s ease-in-out;
 }
 .container-2{
     flex-direction: row;

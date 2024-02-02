@@ -17,6 +17,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#about{
+    margin-top: 5%;
+}
+nav img{
+    overflow: hidden;
+}
 .container{
     padding: 10px 10%;
     padding-bottom: 5%;
@@ -58,7 +64,7 @@ nav h1{
     width: 100%;
 }
 .text{
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 30px;
     text-align: end;
     padding: 10px 10%;
@@ -362,7 +368,9 @@ nav ul .fas{
 .contact-left,.contact-right{
     flex-basis: 100%;
 }
-
+.contact-right{
+    margin-top: 5%;
+}
 }
 .text-align{
     text-align: justify;
